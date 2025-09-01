@@ -30,7 +30,8 @@ class ContentRating extends Component {
     return (
      <>
       <div className="content-rating">
-        <p>Is it better to work from home or in an office? <br/>Working from home offers flexibility and saves commuting time, while working in an office provides better collaboration and social interaction.</p>
+        <p> Would you rather have Wi-Fi everywhere but no electricity, or electricity everywhere but no Wi-Fi?
+</p>
 
         <div className="rating-buttons">
           <button className="like-button" onClick={this.state.handleLike}>
